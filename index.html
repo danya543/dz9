@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="dz.css" />
+  </head>
+  <body>
+    <section class="num2">
+      <div class="center">
+        <form action="#">
+          <label for=""
+            >Не нашли что искали? Оставьте заявку и мы разработаем программу
+            специально для вас!</label
+          >
+          <div class="line">
+            <input type="text" placeholder="Имя*" required />
+            <input type="number" placeholder="Телефон*" required />
+          </div>
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Комментарий" />
+          <button>Отправить</button>
+        </form>
+        <img src="pic/picture.svg" alt="" />
+      </div>
+    </section>
+    <section class="num3">
+      <form action="#">
+        <label for="">Есть вопрос? Мы перезвоним!</label>
+        <div class="row">
+          <input type="text" placeholder="Ваше имя" />
+          <input type="tel" placeholder="Телефон" />
+          <div class="button">
+            <button>Отправить</button>
+            <p>
+              *нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности
+            </p>
+          </div>
+        </div>
+      </form>
+    </section>
+    <section class="num4">
+      <form action="" class="receive">
+        <label for="">Способ получения</label>
+        <input type="text" placeholder="Город" />
+        <select name="" id="">
+          <option disabled selected>Почта Беларуси</option>
+          <option value="Минск">Минск</option>
+          <option value="Брест">Брест</option>
+          <option value="Витебск">Витебск</option>
+          <option value="Гродно">Гродно</option>
+          <option value="Гомель">Гомель</option>
+          <option value="Могилев">Могилев</option>
+        </select>
+        <div class="receive_row">
+          <input type="text" placeholder="Улица" class="street" />
+          <input type="number" placeholder="Дом" />
+          <input type="number" placeholder="Квартира" />
+          <input type="number" placeholder="Индекс" />
+        </div>
+        <input type="text" placeholder="Добавить комментарий" />
+      </form>
+      <form action="" class="user_inf">
+        <label for="">Данные получателя</label>
+        <div class="user_row">
+          <input type="text" placeholder="Фамилия" />
+          <input type="text" placeholder="Имя" />
+          <input type="text" placeholder="Отчество" />
+        </div>
+        <label for="">
+          <input type="tel" placeholder="Номер телефона" class="inp" />
+          <span id="number">
+            По этому номеру телефона мы с вяжемся с вами для подтверждения
+            заказа</span
+          >
+        </label>
+        <label for="">
+          <input type="email" placeholder="E-mail" class="email" />
+          <span id="number">
+            На эту почту вам придет письмо с составом заказа, а так же
+            трэк-номер для его отслеживания</span
+          >
+        </label>
+        <label for="" class="checkbox">
+          <input type="checkbox" checked />
+          <span>Подписаться на рассылку новинок и акций</span>
+        </label>
+      </form>
+      <form action="">
+        <label for="">Способ оплаты</label>
+        <label for="" class="checkbox">
+          <input type="radio" name="way" class="radio" />
+          <span>Оплата при получении наличными или картой</span>
+        </label>
+        <label for="" class="checkbox">
+          <input type="radio" name="way" class="radio" checked />
+          <span>Оплата банковской картой онлайн </span>
+        </label>
+      </form>
+    </section>
+  </body>
+</html>
